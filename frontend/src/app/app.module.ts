@@ -17,6 +17,8 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { MatButtonModule } from '@angular/material/button'
 
 
 
@@ -28,6 +30,7 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     FooterComponent,
     HomeComponent,
     ProductCrudComponent,
+    ProductCreateComponent,
     
   ],
   imports: [
@@ -38,7 +41,8 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    RouterModule
+    RouterModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
